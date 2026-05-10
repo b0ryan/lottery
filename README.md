@@ -51,8 +51,8 @@ curl http://localhost:3000/health
 lottery
 ├── Dockerfile
 ├── README.md
-├── docker-compose-example.yml      # запуск только приложения. Необходимо задать строку подключения к БД.
-├── docker-compose.yml              # запуск приложения и СУБД PostgreSQL в Docker Compose
+├── docker-compose-app-only.yml    # запуск только приложения. Необходимо задать строку подключения к БД.
+├── docker-compose.yml             # запуск приложения и СУБД PostgreSQL в Docker Compose
 ├── docs
 │   ├── README.md
 │   └── README_DBA.md
